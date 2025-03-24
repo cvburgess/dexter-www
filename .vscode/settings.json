@@ -1,0 +1,39 @@
+{
+  "deno.enable": true,
+  "deno.lint": true,
+  "deno.unstable": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "denoland.vscode-deno",
+  "[javascript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "cSpell.words": [
+    "callout",
+    "CALLOUTS",
+    "clickables",
+    "cvburgess",
+    "datetime",
+    "frontmatter",
+    "lume",
+    "mdit",
+    "PAGEFIND",
+    "Shortcode",
+    "shortcodes",
+    "standups",
+    "templating",
+    "xlarge",
+    "xxlarge"
+  ],
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
