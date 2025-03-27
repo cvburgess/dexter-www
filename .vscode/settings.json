@@ -34,6 +34,6 @@
     "xxlarge"
   ],
   "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
