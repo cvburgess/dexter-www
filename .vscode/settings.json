@@ -16,6 +16,12 @@
   "[typescript]": {
     "editor.defaultFormatter": "denoland.vscode-deno"
   },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vto]": {
+    "editor.defaultFormatter": "okitavera.vscode-nunjucks-formatter"
+  },
   "cSpell.words": [
     "callout",
     "CALLOUTS",
@@ -36,8 +42,5 @@
     "templating",
     "xlarge",
     "xxlarge"
-  ],
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  ]
 }

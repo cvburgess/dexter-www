@@ -1,24 +1,29 @@
-<div class="navbar bg-base-100">
-  <div class="flex-1">
-    <a class="btn btn-ghost text-xl">Dexter</a>
-  </div>
+<div class="navbar bg-base-100 !p-8">
+  <a href="/" class="flex flex-1 items-center gap-2">
+    <img src="/assets/app-icon.png" alt="Dexter app icon" class="!size-18"/>
+    <span class="!text-xl font-medium">Dexter</span>
+  </a>
+
   <div class="flex-none">
-    <ul class="menu menu-horizontal px-1">
-      <li>
-        <a>Link</a>
-      </li>
+    <ul class="menu menu-horizontal !text-lg p-1 gap-4">
       <li>
         <details>
-          <summary>Parent</summary>
-          <ul class="bg-base-100 rounded-t-none p-2">
+          <summary class="btn btn-outline outline-base-content/80">Get the app</summary>
+          <ul class="bg-base-100 rounded-t-none p-2 !mt-0 w-50">
             <li>
-              <a>Link 1</a>
+              <a>Download Mac app</a>
             </li>
-            <li>
-              <a>Link 2</a>
+            <li class="menu-disabled">
+              <a>Get iPhone app</a>
             </li>
           </ul>
         </details>
+      </li>
+
+      <li>
+        <a href="https://app.dexterplanner.com" class="btn bg-base-content/80 text-base-100">
+          Login
+        </a>
       </li>
     </ul>
   </div>

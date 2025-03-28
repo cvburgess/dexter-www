@@ -10,5 +10,6 @@ const site = lume({
 
 site.use(tailwindcss());
 site.add("index.css");
+site.add("/assets");
 
 export default site;
