@@ -1,13 +1,13 @@
 <!doctype html>
 <html lang="en">
   <head>
-    {%- include "meta.njk" -%}
+    {{ include "meta.vto" }}
   </head>
   <body>
-    {%- include "header.html" -%}
+    {{ include "header.vto" }}
     <main class="min-h-screen flex flex-col items-center">
-      {{ content | safe }}
+      {{ content }}
     </main>
-    {%- include "footer.njk" -%}
+    {{ include "footer.vto" }}
   </body>
 </html>

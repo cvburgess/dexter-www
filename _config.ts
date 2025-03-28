@@ -1,5 +1,4 @@
 import lume from "lume/mod.ts";
-import nunjucks from "lume/plugins/nunjucks.ts";
 import tailwindcss from "lume/plugins/tailwindcss.ts";
 
 const BASE_URL = "https://dexterplanner.com";
@@ -9,7 +8,6 @@ const site = lume({
   src: "./src",
 });
 
-site.use(nunjucks());
 site.use(tailwindcss());
 site.add("index.css");
 
