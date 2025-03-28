@@ -1,11 +1,8 @@
 @import "tailwindcss";
 
-/* 
-@plugin "daisyui/theme" {
-  name: "dexter";
-  default: false;
-  prefersdark: false;
-  color-scheme: "light";
+@plugin "@lumeland/daisyui";
+
+:root {
   --color-base-100: oklch(99% 0.01 78.24);
   --color-base-200: oklch(96% 0.015 78.24);
   --color-base-300: oklch(91% 0.0181 78.24);
@@ -34,4 +31,4 @@
   --border: 1px;
   --depth: 0;
   --noise: 0;
-} */
+}

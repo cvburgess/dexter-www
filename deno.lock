@@ -33,6 +33,8 @@
     "jsr:@std/toml@^1.0.2": "1.0.2",
     "jsr:@std/yaml@1.0.5": "1.0.5",
     "jsr:@std/yaml@^1.0.5": "1.0.5",
+    "npm:@lumeland/daisyui@*": "5.0.9",
+    "npm:@lumeland/daisyui@^5.0.9": "5.0.9",
     "npm:@tailwindcss/oxide@4.0.15": "4.0.15",
     "npm:@tailwindcss/oxide@4.0.3": "4.0.3",
     "npm:@types/estree@1.0.6": "1.0.6",
@@ -149,6 +151,9 @@
     }
   },
   "npm": {
+    "@lumeland/daisyui@5.0.9": {
+      "integrity": "sha512-+h2RtzIY/F5Esp5dhN4CccpgpxdoNZOEUkcSepiVo3H5hTCsmDI2oHXysKWbwHyazqC38fwKA+g/VUXTlOAghw=="
+    },
     "@tailwindcss/oxide-android-arm64@4.0.15": {
       "integrity": "sha512-EBuyfSKkom7N+CB3A+7c0m4+qzKuiN0WCvzPvj5ZoRu4NlQadg/mthc1tl5k9b5ffRGsbDvP4k21azU4VwVk3Q=="
     },
@@ -573,5 +578,10 @@
     "https://deno.land/x/vento@v1.12.16/src/loader.ts": "c05add67f582e937ee611852075ce2cc038b5e80e3e609eef96fa5ed74a5086c",
     "https://deno.land/x/vento@v1.12.16/src/tokenizer.ts": "127ddad02054f63b8b646e4dfbf555e1e34e9b8dcbd58d86b3729a4de95abd27",
     "https://deno.land/x/vento@v1.12.16/src/transformer.ts": "9ff70c554b3889151745b5f7117bc5c02b889e6e16ca53e5b8c1fa6b767fb451"
+  },
+  "workspace": {
+    "dependencies": [
+      "npm:@lumeland/daisyui@^5.0.9"
+    ]
   }
 }
