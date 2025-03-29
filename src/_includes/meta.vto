@@ -9,7 +9,7 @@
 <meta property="og:image:width" content="1024"/>
 <meta property="og:image:height" content="1024"/>
 
-<title>{{ [metadata.title, title].join(" - ") }}</title>
+<title>{{ [metadata.title, title].filter(Boolean).join(" • ") }}</title>
 
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
