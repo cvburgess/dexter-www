@@ -10,7 +10,14 @@ layout: base.vto
   ... just kidding, but it will help you <span class="font-semibold">get and stay organized</span> - and it's
   pretty, too!
 </p>
-<img src="/assets/screenshot.png" alt="Dexter app screenshot" class="" />
+<picture>
+  <!-- User prefers light mode: -->
+  <source srcset="/assets/screenshot-light.png" media="(prefers-color-scheme: light)"/>
+  <!-- User prefers dark mode: -->
+  <source srcset="/assets/screenshot-dark.png"  media="(prefers-color-scheme: dark)"/>
+  <!-- User has no color preference: -->
+  <img src="/assets/screenshot-light.png" alt="Dexter app screenshot" />
+</picture>
 
 <h2 id="today" class="text-3xl font-black text-center text-balanced my-8">
   Today
