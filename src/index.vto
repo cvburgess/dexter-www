@@ -19,25 +19,59 @@ layout: base.vto
   <img src="/assets/screenshot-light.png" alt="Dexter app screenshot" />
 </picture>
 
-<h2 id="today" class="text-3xl font-black text-center text-balanced my-12">
-  Today
+<h2 id="features" class="text-3xl font-black text-center text-balanced my-12">
+  Features
 </h2>
-<div class="h-100 w-100"></div>
 
-<h2 id="review" class="text-3xl font-black text-center text-balanced my-12">
-  Review
-</h2>
-<div class="h-100 w-100"></div>
+<div class="flex flex-wrap gap-8 items-center justify-center">
+  <div id="today" class="card bg-base-100 w-80 shadow-sm">
+    <picture class="pt-8">
+      <source srcset="/assets/week-light.png" media="(prefers-color-scheme: light)"/>
+      <source srcset="/assets/week-dark.png"  media="(prefers-color-scheme: dark)"/>
+      <img src="/assets/week-light.png" alt="Week planner" />
+    </picture>
+    <div class="card-body text-center !gap-4">
+      <h2 class="text-2xl font-black">Today</h2>
+      <p class="text-balanced">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+    </div>
+  </div>
 
-<h2 id="week" class="text-3xl font-black text-center text-balanced my-12">
-  Week
-</h2>
-<div class="h-100 w-100"></div>
+  <div id="review" class="card bg-base-100 w-80 shadow-sm">
+    <picture class="pt-8">
+      <source srcset="/assets/week-light.png" media="(prefers-color-scheme: light)"/>
+      <source srcset="/assets/week-dark.png"  media="(prefers-color-scheme: dark)"/>
+      <img src="/assets/week-light.png" alt="Week planner" />
+    </picture>
+    <div class="card-body text-center !gap-4">
+      <h2 class="text-2xl font-black">Review</h2>
+      <p class="text-balanced">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+    </div>
+  </div>
 
-<h2 id="prioritize" class="text-3xl font-black text-center text-balanced my-12">
-  Prioritize
-</h2>
-<div class="h-100 w-100"></div>
+  <div id="week" class="card bg-base-100 w-80 shadow-sm">
+    <picture class="pt-8">
+      <source srcset="/assets/week-light.png" media="(prefers-color-scheme: light)"/>
+      <source srcset="/assets/week-dark.png"  media="(prefers-color-scheme: dark)"/>
+      <img src="/assets/week-light.png" alt="Week planner" />
+    </picture>
+    <div class="card-body text-center !gap-4">
+      <h2 class="text-2xl font-black">Week</h2>
+      <p class="text-balanced">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+    </div>
+  </div>
+
+  <div id="prioritize" class="card bg-base-100 w-80 shadow-sm">
+    <picture class="pt-8">
+      <source srcset="/assets/prioritize-light.png" media="(prefers-color-scheme: light)"/>
+      <source srcset="/assets/prioritize-dark.png"  media="(prefers-color-scheme: dark)"/>
+      <img src="/assets/prioritize-light.png" alt="Prioritization" />
+    </picture>
+    <div class="card-body text-center !gap-4">
+      <h2 class="text-2xl font-black">Prioritize</h2>
+      <p class="text-balanced">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+    </div>
+  </div>
+</div>
 
 <h2 id="pricing" class="text-3xl font-black text-center text-balanced my-12">
   Pricing
@@ -86,7 +120,7 @@ layout: base.vto
         </li>
         <li class="flex items-center opacity-50">
           <i class="ph-bold ph-x mr-2 text-lg"></i>
-          <span class="line-through">Customize with 35+ themes</span>
+          <span class="line-through">Customize themes, templates, and more</span>
         </li>
         <li class="flex items-center opacity-50">
           <i class="ph-bold ph-x mr-2 text-lg"></i>
@@ -102,8 +136,8 @@ layout: base.vto
 
   <!-- Paid Plan -->
   <div class="card shadow-xl w-full xs:w-1/2">
-    <div class="flex flex-col w-full bg-base-content/80 rounded-t-box p-8">
-      <h2 class="card-title text-2xl font-bold text-base-100">
+    <div class="flex flex-col w-full bg-neutral/80 rounded-t-box p-8">
+      <h2 class="card-title text-2xl font-bold text-neutral-content">
         Unlimited Plan
       </h2>
       <p class="text-3xl font-bold mt-2 text-base-100">
@@ -142,7 +176,7 @@ layout: base.vto
         </li>
         <li class="flex items-center">
           <i class="ph-bold ph-check text-success mr-2 text-lg"></i>
-          Customize with <span class="font-bold">&nbsp;35+ themes</span>
+          <span>Customize themes, templates, and more</span>
         </li>
         <li class="flex items-center">
           <i class="ph-bold ph-check text-success mr-2 text-lg"></i>
