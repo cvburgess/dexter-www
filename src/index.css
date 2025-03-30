@@ -59,3 +59,7 @@
     --color-error-content: oklch(16.483% 0.019 33.756);
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}

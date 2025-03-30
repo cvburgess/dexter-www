@@ -3,7 +3,7 @@ title: ""
 layout: base.vto
 ---
 
-<h1 class="text-4xl font-black mt-8 text-center text-balanced">
+<h1 class="text-4xl font-black mt-12 text-center text-balanced">
   The day planner that fixes <span class="italic">everything</span>
 </h1>
 <p class="text-md text-center text-balanced">
@@ -19,33 +19,29 @@ layout: base.vto
   <img src="/assets/screenshot-light.png" alt="Dexter app screenshot" />
 </picture>
 
-<h2 id="today" class="text-3xl font-black text-center text-balanced my-8">
+<h2 id="today" class="text-3xl font-black text-center text-balanced my-12">
   Today
 </h2>
 <div class="h-100 w-100"></div>
 
-<h2 id="review" class="text-3xl font-black text-center text-balanced my-8">
+<h2 id="review" class="text-3xl font-black text-center text-balanced my-12">
   Review
 </h2>
 <div class="h-100 w-100"></div>
 
-<h2 id="week" class="text-3xl font-black text-center text-balanced my-8">
+<h2 id="week" class="text-3xl font-black text-center text-balanced my-12">
   Week
 </h2>
 <div class="h-100 w-100"></div>
 
-<h2 id="prioritize" class="text-3xl font-black text-center text-balanced my-8">
+<h2 id="prioritize" class="text-3xl font-black text-center text-balanced my-12">
   Prioritize
 </h2>
 <div class="h-100 w-100"></div>
 
-<h2 id="pricing" class="text-3xl font-black text-center text-balanced mt-8">
+<h2 id="pricing" class="text-3xl font-black text-center text-balanced my-12">
   Pricing
 </h2>
-
-<p class="text-md text-center text-balanced mb-8">
-  Yeah it's a subscription, but if it makes you more productive, it pays for itself. That's how math works, right?
-</p>
 
 <div
   class="flex flex-col md:flex-row gap-8 max-w-3xl w-full justify-center items-center"
@@ -59,7 +55,7 @@ layout: base.vto
     <div class="card-body">
       <ul class="space-y-2">
         <li class="flex items-center">
-          <i class="ph-bold ph-minus text-warning mr-2 text-lg"></i>
+          <i class="ph-bold ph-minus opacity-50 mr-2 text-lg"></i>
           <span>Create up to</span>&nbsp;<span class="font-bold"
             >100 tasks</span
           >
@@ -84,23 +80,23 @@ layout: base.vto
           <i class="ph-bold ph-check text-success mr-2 text-lg"></i>
           <span>Organize with lists</span>
         </li>
-        <li class="flex items-center">
-          <i class="ph-bold ph-x text-error mr-2 text-lg"></i>
-          <span class="text-base-content/70">Track your goals</span>
+        <li class="flex items-center opacity-50">
+          <i class="ph-bold ph-x mr-2 text-lg"></i>
+          <span class="line-through">Achieve more with goals</span>
         </li>
-        <li class="flex items-center">
-          <i class="ph-bold ph-x text-error mr-2 text-lg"></i>
-          <span class="text-base-content/70">Customize with themes</span>
+        <li class="flex items-center opacity-50">
+          <i class="ph-bold ph-x mr-2 text-lg"></i>
+          <span class="line-through">Customize with 35+ themes</span>
         </li>
-        <li class="flex items-center">
-          <i class="ph-bold ph-coffee text-warning mr-2 text-lg"></i>
-          <span class="text-base-content/70">Buy yourself half a coffee</span>
+        <li class="flex items-center opacity-50">
+          <i class="ph-bold ph-x mr-2 text-lg"></i>
+          <span class="line-through">Track your habits</span>
+        </li>
+        <li class="flex items-center opacity-50">
+          <i class="ph-bold ph-coffee mr-2 text-lg"></i>
+          <span class="line-through">Buy half a matcha latte</span>
         </li>
       </ul>
-
-      <div class="card-actions mt-6">
-        <button class="btn btn-outline w-full">Get started for free</button>
-      </div>
     </div>
   </div>
 
@@ -118,7 +114,7 @@ layout: base.vto
       <ul class="space-y-2">
         <li class="flex items-center">
           <i class="ph-bold ph-check text-success mr-2 text-lg"></i>
-          <span class="font-bold">Create unlimited tasks</span>
+          Create<span class="font-bold">&nbsp;unlimited&nbsp;</span> tasks
         </li>
         <li class="flex items-center">
           <i class="ph-bold ph-check text-success mr-2 text-lg"></i>
@@ -142,25 +138,21 @@ layout: base.vto
         </li>
         <li class="flex items-center">
           <i class="ph-bold ph-check text-success mr-2 text-lg"></i>
-          <span class="font-bold">Track your goals</span>
+          <span>Achieve more with goals</span>
         </li>
         <li class="flex items-center">
           <i class="ph-bold ph-check text-success mr-2 text-lg"></i>
-          <span class="font-bold">Customize with themes</span>
+          Customize with <span class="font-bold">&nbsp;35+ themes</span>
+        </li>
+        <li class="flex items-center">
+          <i class="ph-bold ph-check text-success mr-2 text-lg"></i>
+          <span>Track your habits</span>
         </li>
         <li class="flex items-center">
           <i class="ph-bold ph-heart text-success mr-2 text-lg"></i>
-          <span class="font-bold">Support an indie developer</span>
+          <span>Support an indie developer</span>
         </li>
       </ul>
-
-      <div class="card-actions mt-6">
-        <button
-          class="btn bg-base-content/80 text-base-100 hover:bg-base-content w-full"
-        >
-          Support Dexter
-        </button>
-      </div>
     </div>
   </div>
 </div>
