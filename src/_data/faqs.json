@@ -1,26 +1,34 @@
 [
   {
-    "question": "What is the purpose of this project?",
-    "answer": "This project is a template for creating a personal portfolio website."
+    "question": "What makes Dexter an \"opinionated\" day planner?",
+    "answer": "Dexter is a tool I originally built for myself based on years of playing with different tools and methods but not finding anything that filled the gap between \"too simple to be useful\" and \"too complicated to use everyday\".<br/><br/>It tries to balance being as easy to use as possible (It Just Works™), while incorporating best practices that most people are likely to benefit from.<br /><br />An example of an \"opinion\" is that Dexter nudges you to prioritize all tasks and in a specific way.<br/>Why? Because the process of answering the two questions \"Is it important?\" and \"Is it urgent?\" can help you decide what to do today and more importantly, what _**not to do**_ today."
   },
   {
-    "question": "How do I customize the template?",
-    "answer": "You can customize the template by modifying the HTML, CSS, and JavaScript files in the project."
+    "question": "Does the daily notes feature replace Obsidian / Notion / etc?",
+    "answer": "The daily notes feature is powered by a robust Markdown editor that makes a perfect scratchpad for your mid-day thoughts, but it doesn't have the same features as a full-fledged note-taking app.<br /><br />Think of daily notes like that pile of sticky notes covering your desk or the musings sprawled across your whiteboard instead of a comprehensive documentation tool. <br /><br />If you only need simple home for your thoughts, Dexter might replace those apps, but if you're writing the next great novel, you'll want to stick with your favorite note-taking app."
   },
   {
-    "question": "Is this template responsive?",
-    "answer": "Yes, this template is designed to be responsive and will work on various screen sizes."
+    "question": "Is Dexter open source?",
+    "answer": "Not yet, but I hope to find a license that fits and open source the repos soon!"
   },
   {
-    "question": "Can I use this template for commercial purposes?",
-    "answer": "Yes, you can use this template for commercial purposes, but please check the license for any restrictions."
+    "question": "When will Dexter be available for Windows / Android / toasters / etc?",
+    "answer": "At this time there are no plans to develop for new platforms, but [Dexter is available as a web app](https://app.dexterplanner.com), so you can use it on any device with a web browser."
   },
   {
-    "question": "How do I deploy my portfolio website?",
-    "answer": "You can deploy your portfolio website using platforms like GitHub Pages, Netlify, or Vercel."
+    "question": "Is my data secure? Do you sell it? Can I delete it?",
+    "answer": "Dexter uses row-level-security, encryption, and other best practices to keep your data safe. <br /><br />Your data is yours and you can delete it at any time by deleting your account. <br /><br />We do not sell your data or use it for advertising. In fact, Dexter doesn't even _use_ third party services for telemetry or analytics so there is isn't much data to sell.<br /><br /> I do plan to use Sentry for error tracking, but it is configured to only send anonymized data and no personally identifiable information.<br /><br />All payment data is handled by Stripe with no payment data being stored on our servers.<br /><br />Dexter is probably not GDPR compliant because I am a lazy American who hasn't researched it yet, but I will take the time to do so soon."
   },
   {
-    "question": "Where can I find more information about web development?",
-    "answer": "You can find more information about web development on websites like MDN Web Docs, W3Schools, and freeCodeCamp."
+    "question": "How do I report a bug or request a feature?",
+    "answer": "Use the \"settings\" menu in the app to report a bug or request a feature."
+  },
+  {
+    "question": "$3? That's too much!",
+    "answer": "There's a free plan, but if you want to support Dexter and get some cool features, 10¢ a day feels reasonable."
+  },
+  {
+    "question": "$3? That's not sustainable!",
+    "answer": "Dexter is a tool I built and maintain for myself because it makes my life better and I have no plans to stop. <br /><br /> If it makes your life easier, too, please consider supporting it with a subscription or sharing it with your friends."
   }
 ]
