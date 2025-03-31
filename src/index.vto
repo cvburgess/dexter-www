@@ -31,6 +31,16 @@ layout: layouts/base.vto
   {{ include "partials/features.vto" }}
 </div>
 
+<h2 id="faq" class="text-3xl font-black text-center text-balanced pt-16 mb-8">
+  Frequently Asked Questions
+</h2>
+
+<div class="flex flex-col gap-4 max-w-3xl w-full">
+  {{ comp.faqItem({ question: "I forgot my password. What should I do?", answer: "Click on \"Forgot Password\" on the login page and follow the instructions sent to your email." })}}
+  {{ comp.faqItem({ question: "How do I update my profile information?", answer: "Go to \"My Account\" settings and select \"Edit Profile\" to make changes."})}}
+  {{ comp.faqItem({ question: "I forgot my password. What should I do?", answer: "Click on \"Forgot Password\" on the login page and follow the instructions sent to your email." })}}
+  {{ comp.faqItem({ question: "How do I update my profile information?", answer: "Go to \"My Account\" settings and select \"Edit Profile\" to make changes."})}}
+</div>
 
 <h2 id="pricing" class="text-3xl font-black text-center text-balanced pt-16 mb-8">
   Pricing
