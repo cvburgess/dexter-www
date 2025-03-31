@@ -21,9 +21,10 @@
       {{ comp.planItem({ enabled: true, text: "Get a birds-eye view of the week" }) }}
       {{ comp.planItem({ enabled: true, text: "Prioritize with the Eisenhower matrix" }) }}
       {{ comp.planItem({ enabled: true, text: "Organize with lists" }) }}
-      {{ comp.planItem({ enabled: title !== "Free", text: "Achieve more with goals" }) }}
-      {{ comp.planItem({ enabled: title !== "Free", text: "Customize themes, templates, and more" }) }}
-      {{ comp.planItem({ enabled: title !== "Free", text: "Track your habits" }) }}
+      {{ comp.planItem({ enabled: title !== "Free", bold: true, text: "Achieve more with goals" }) }}
+      {{ comp.planItem({ enabled: title !== "Free", bold: true, text: "Customize themes, templates, and more" }) }}
+      {{ comp.planItem({ enabled: title !== "Free", bold: true, text: "Track your habits" }) }}
+      {{ comp.planItem({ enabled: title !== "Free", bold: true, text: "Stay in the zone with focus blocks" }) }}
       {{ if title === "Free" }}
         <li class="flex items-center opacity-50">
           <i class="ph-bold ph-coffee text-warning mr-2 text-lg"></i>
