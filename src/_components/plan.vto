@@ -1,0 +1,40 @@
+<div class="card bg-base-100 shadow-xl w-full xs:w-1/2">
+  <div class="flex flex-col {{ title === "Free" ? "bg-base-200" : "bg-neutral/80 text-neutral-content" }} w-full rounded-t-box p-8">
+    <h2 class="card-title text-2xl font-bold">{{ title }} Plan</h2>
+    <p class="text-3xl font-bold mt-2">${{ price }}
+      {{ if price }}<span class="text-sm opacity-80 text-base-100">per month</span>{{ /if }}
+    </p>
+  </div>
+  <div class="card-body">
+    <ul class="space-y-2">
+      <li class="flex items-center">
+        {{ if title === "Free" }}
+          <i class="ph-bold ph-minus text-warning mr-2 text-lg"></i>
+          <span>Create up to 100 tasks</span>
+        {{ else }}
+          <i class="ph-bold ph-check text-success mr-2 text-lg"></i>
+          <span>Create <span class="font-bold">unlimited</span> tasks</span>
+      {{ /if }}
+      </li>
+      {{ comp.planItem({ enabled: true, text: "Plan today, take notes, and journal" }) }}
+      {{ comp.planItem({ enabled: true, text: "Review today, plan tomorrow" }) }}
+      {{ comp.planItem({ enabled: true, text: "Get a birds-eye view of the week" }) }}
+      {{ comp.planItem({ enabled: true, text: "Prioritize with the Eisenhower matrix" }) }}
+      {{ comp.planItem({ enabled: true, text: "Organize with lists" }) }}
+      {{ comp.planItem({ enabled: title !== "Free", text: "Achieve more with goals" }) }}
+      {{ comp.planItem({ enabled: title !== "Free", text: "Customize themes, templates, and more" }) }}
+      {{ comp.planItem({ enabled: title !== "Free", text: "Track your habits" }) }}
+      {{ if title === "Free" }}
+        <li class="flex items-center opacity-50">
+          <i class="ph-bold ph-coffee text-warning mr-2 text-lg"></i>
+          <span class="line-through">Buy half a matcha latte</span>
+        </li>
+      {{ else }}
+        <li class="flex items-center">
+          <i class="ph-bold ph-heart text-success mr-2 text-lg"></i>
+          <span>Support an indie developer</span>
+        </li>
+      {{ /if }}
+    </ul>
+  </div>
+</div>
