@@ -2,7 +2,9 @@
 title: ""
 layout: layouts/base.vto
 ---
-
+<div class="absolute -left-10 top-8 bg-warning text-warning-content text-black py-1 px-16 -rotate-45 font-bold shadow-md">
+  BETA
+</div>
 <h1 class="text-4xl font-black mt-4 text-center text-balanced">
   The day planner that fixes <span class="italic">everything</span>
 </h1>
@@ -26,9 +28,17 @@ layout: layouts/base.vto
 <!--"An adaptation of the Eisenhower Matrix,<br />tasks are labeled <span class="text-info">important</span>, <span class="text-error">urgent</span>, <span class="text-warning">both</span>,<br />or <span class="text-neutral">neither</span> so your priorities are always clear"-->
 
 <div class="flex gap-8 w-screen pb-16 overflow-scroll auto-scroll">
-  {{ include "partials/features.vto" }}
+  <div class="card-group flex gap-8">
+    {{ for feature of features }}
+      {{ comp.feature(feature) }}
+    {{ /for }}
+  </div>
   <!-- Duplicate for continuous scroll effect -->
-  {{ include "partials/features.vto" }}
+  <div class="card-group flex gap-8">
+    {{ for feature of features }}
+      {{ comp.feature(feature) }}
+    {{ /for }}
+  </div>
 </div>
 
 <h2 id="faq" class="text-3xl font-black text-center text-balanced pt-16 mb-8">
@@ -36,10 +46,9 @@ layout: layouts/base.vto
 </h2>
 
 <div class="flex flex-col gap-4 max-w-3xl w-full">
-  {{ comp.faqItem({ question: "I forgot my password. What should I do?", answer: "Click on \"Forgot Password\" on the login page and follow the instructions sent to your email." })}}
-  {{ comp.faqItem({ question: "How do I update my profile information?", answer: "Go to \"My Account\" settings and select \"Edit Profile\" to make changes."})}}
-  {{ comp.faqItem({ question: "I forgot my password. What should I do?", answer: "Click on \"Forgot Password\" on the login page and follow the instructions sent to your email." })}}
-  {{ comp.faqItem({ question: "How do I update my profile information?", answer: "Go to \"My Account\" settings and select \"Edit Profile\" to make changes."})}}
+  {{ for faq of faqs }}
+    {{ comp.faq(faq) }}
+  {{ /for }}
 </div>
 
 <h2 id="pricing" class="text-3xl font-black text-center text-balanced pt-16 mb-8">

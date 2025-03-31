@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "quick",
+    "title": "Quick Planner",
+    "description": "Keep track of tasks that are incomplete, due soon, or were left behind on days where you were feeling particularly... ambitious."
+  },
+  {
+    "slug": "prioritize",
+    "title": "Prioritization",
+    "description": "An adaptation of the Eisenhower Matrix"
+  },
+  {
+    "slug": "review",
+    "title": "Daily Review",
+    "description": "Mindfully end each day by reviewing wins and deciding if leftover items should be marked as done, won't do, or be rescheduled"
+  },
+  {
+    "slug": "soon",
+    "title": "Notes & Journal",
+    "description": "A card component has a figure, a body part, and inside body there are title and actions parts and a third line too"
+  },
+  {
+    "slug": "week",
+    "title": "Week at a Glance",
+    "description": "A card component has a figure, a body part, and inside body there are title and actions parts and a third line too"
+  },
+  {
+    "slug": "soon",
+    "title": "Goals",
+    "description": "A card component has a figure, a body part, and inside body there are title and actions parts and a third line too"
+  },
+  {
+    "slug": "soon",
+    "title": "Focus Blocks",
+    "description": "A card component has a figure, a body part, and inside body there are title and actions parts and a third line too"
+  },
+  {
+    "slug": "soon",
+    "title": "Habit Tracking",
+    "description": "A card component has a figure, a body part, and inside body there are title and actions parts and a third line too"
+  }
+]

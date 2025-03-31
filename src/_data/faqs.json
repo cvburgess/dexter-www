@@ -1,0 +1,26 @@
+[
+  {
+    "question": "What is the purpose of this project?",
+    "answer": "This project is a template for creating a personal portfolio website."
+  },
+  {
+    "question": "How do I customize the template?",
+    "answer": "You can customize the template by modifying the HTML, CSS, and JavaScript files in the project."
+  },
+  {
+    "question": "Is this template responsive?",
+    "answer": "Yes, this template is designed to be responsive and will work on various screen sizes."
+  },
+  {
+    "question": "Can I use this template for commercial purposes?",
+    "answer": "Yes, you can use this template for commercial purposes, but please check the license for any restrictions."
+  },
+  {
+    "question": "How do I deploy my portfolio website?",
+    "answer": "You can deploy your portfolio website using platforms like GitHub Pages, Netlify, or Vercel."
+  },
+  {
+    "question": "Where can I find more information about web development?",
+    "answer": "You can find more information about web development on websites like MDN Web Docs, W3Schools, and freeCodeCamp."
+  }
+]
