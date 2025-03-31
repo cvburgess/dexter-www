@@ -1,6 +1,6 @@
 ---
 title: "Privacy Policy"
-layout: legal.vto
+layout: layouts/legal.vto
 ---
 
 # Privacy Policy

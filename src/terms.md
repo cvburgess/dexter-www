@@ -1,6 +1,6 @@
 ---
 title: "Terms of Service"
-layout: legal.vto
+layout: layouts/legal.vto
 ---
 
 # Terms of Service

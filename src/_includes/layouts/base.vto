@@ -1,13 +1,13 @@
 <!doctype html>
 <html lang="en">
   <head>
-    {{ include "meta.vto" }}
+    {{ include "partials/meta.vto" }}
   </head>
   <body>
-    {{ include "header.vto" }}
+    {{ include "partials/header.vto" }}
     <main class="min-h-screen max-w-screen flex flex-col items-center gap-4 mx-8 mt-8 mb-24">
       {{ content }}
     </main>
-    {{ include "footer.vto" }}
+    {{ include "partials/footer.vto" }}
   </body>
 </html>
