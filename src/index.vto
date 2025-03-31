@@ -19,13 +19,13 @@ layout: base.vto
   <img src="/assets/screenshot-light.png" alt="Dexter app screenshot" />
 </picture>
 
-<h2 id="features" class="text-3xl font-black text-center text-balanced mt-16 mb-8">
+<h2 id="features" class="text-3xl font-black text-center text-balanced pt-16 mb-8">
   Features
 </h2>
 
-<div class="carousel carousel-center gap-8 w-screen px-16 pb-16">
-  <div class="carousel-item">
-    <div id="quick" class="card bg-base-100 w-90 shadow-xl">
+<div class="flex gap-8 w-screen pb-16 overflow-scroll auto-scroll">
+  <div class="card-group flex gap-8">
+    <div id="quick" class="card bg-base-100 min-w-90 w-90 shadow-xl">
       <picture class="pt-8">
         <source srcset="/assets/quick-light.svg" media="(prefers-color-scheme: light)"/>
         <source srcset="/assets/quick-dark.svg"  media="(prefers-color-scheme: dark)"/>
@@ -38,10 +38,8 @@ layout: base.vto
         </p>
       </div>
     </div>
-  </div>
 
-  <div class="carousel-item">
-    <div id="prioritize" class="card bg-base-100 w-90 shadow-xl">
+    <div id="prioritize" class="card bg-base-100 min-w-90 w-90 shadow-xl">
       <picture class="pt-8">
         <source srcset="/assets/prioritize-light.svg" media="(prefers-color-scheme: light)"/>
         <source srcset="/assets/prioritize-dark.svg"  media="(prefers-color-scheme: dark)"/>
@@ -52,10 +50,8 @@ layout: base.vto
         <p class="text-balanced">A card component has a figure, a body part, and inside body there are title and actions parts and a third line too</p>
       </div>
     </div>
-  </div>
 
-  <div class="carousel-item">
-    <div id="review" class="card bg-base-100 w-90 shadow-xl">
+    <div id="review" class="card bg-base-100 min-w-90 w-90 shadow-xl">
       <picture class="pt-8">
         <source srcset="/assets/review-light.svg" media="(prefers-color-scheme: light)"/>
         <source srcset="/assets/review-dark.svg"  media="(prefers-color-scheme: dark)"/>
@@ -66,10 +62,8 @@ layout: base.vto
         <p class="text-balanced">A card component has a figure, a body part, and inside body there are title and actions parts and a third line too</p>
       </div>
     </div>
-  </div>
-
-  <div class="carousel-item">
-    <div id="notes" class="card bg-base-100 w-90 shadow-xl">
+    
+    <div id="notes" class="card bg-base-100 min-w-90 w-90 shadow-xl">
       <picture class="pt-8">
         <source srcset="/assets/soon-light.svg" media="(prefers-color-scheme: light)"/>
         <source srcset="/assets/soon-dark.svg"  media="(prefers-color-scheme: dark)"/>
@@ -80,10 +74,8 @@ layout: base.vto
         <p class="text-balanced">A card component has a figure, a body part, and inside body there are title and actions parts and a third line too</p>
       </div>
     </div>
-  </div>
-
-  <div class="carousel-item">
-    <div id="week" class="card bg-base-100 w-90 shadow-xl">
+    
+    <div id="week" class="card bg-base-100 min-w-90 w-90 shadow-xl">
       <picture class="pt-8">
         <source srcset="/assets/week-light.svg" media="(prefers-color-scheme: light)"/>
         <source srcset="/assets/week-dark.svg"  media="(prefers-color-scheme: dark)"/>
@@ -94,10 +86,8 @@ layout: base.vto
         <p class="text-balanced">A card component has a figure, a body part, and inside body there are title and actions parts and a third line too</p>
       </div>
     </div>
-  </div>
-
-  <div class="carousel-item">
-    <div id="goals" class="card bg-base-100 w-90 shadow-xl">
+    
+    <div id="goals" class="card bg-base-100 min-w-90 w-90 shadow-xl">
       <picture class="pt-8">
         <source srcset="/assets/soon-light.svg" media="(prefers-color-scheme: light)"/>
         <source srcset="/assets/soon-dark.svg"  media="(prefers-color-scheme: dark)"/>
@@ -108,10 +98,8 @@ layout: base.vto
         <p class="text-balanced">A card component has a figure, a body part, and inside body there are title and actions parts and a third line too</p>
       </div>
     </div>
-  </div>
-
-  <div class="carousel-item">
-    <div id="focus" class="card bg-base-100 w-90 shadow-xl">
+    
+    <div id="focus" class="card bg-base-100 min-w-90 w-90 shadow-xl">
       <picture class="pt-8">
         <source srcset="/assets/soon-light.svg" media="(prefers-color-scheme: light)"/>
         <source srcset="/assets/soon-dark.svg"  media="(prefers-color-scheme: dark)"/>
@@ -122,10 +110,107 @@ layout: base.vto
         <p class="text-balanced">A card component has a figure, a body part, and inside body there are title and actions parts and a third line too</p>
       </div>
     </div>
+    
+    <div id="habits" class="card bg-base-100 min-w-90 w-90 shadow-xl">
+      <picture class="pt-8">
+        <source srcset="/assets/soon-light.svg" media="(prefers-color-scheme: light)"/>
+        <source srcset="/assets/soon-dark.svg"  media="(prefers-color-scheme: dark)"/>
+        <img src="/assets/soon-light.svg" alt="Week planner" />
+      </picture>
+      <div class="card-body text-center !gap-4">
+        <h2 class="text-2xl font-black">Habit Tracking</h2>
+        <p class="text-balanced">A card component has a figure, a body part, and inside body there are title and actions parts and a third line too</p>
+      </div>
+    </div>
   </div>
+  <div class="card-group flex gap-8">
+    <div id="quick" class="card bg-base-100 min-w-90 w-90 shadow-xl">
+      <picture class="pt-8">
+        <source srcset="/assets/quick-light.svg" media="(prefers-color-scheme: light)"/>
+        <source srcset="/assets/quick-dark.svg"  media="(prefers-color-scheme: dark)"/>
+        <img src="/assets/quick-light.svg" alt="Quick planner" />
+      </picture>
+      <div class="card-body text-center !gap-4">
+        <h2 class="text-2xl font-black">Quick Planner</h2>
+        <p class="text-balanced">
+          Keep track of tasks that are incomplete, due soon, or were left behind on days where you were feeling particularly... ambitious.
+        </p>
+      </div>
+    </div>
 
-  <div class="carousel-item">
-    <div id="habits" class="card bg-base-100 w-90 shadow-xl">
+    <div id="prioritize" class="card bg-base-100 min-w-90 w-90 shadow-xl">
+      <picture class="pt-8">
+        <source srcset="/assets/prioritize-light.svg" media="(prefers-color-scheme: light)"/>
+        <source srcset="/assets/prioritize-dark.svg"  media="(prefers-color-scheme: dark)"/>
+        <img src="/assets/prioritize-light.svg" alt="Prioritization" />
+      </picture>
+      <div class="card-body text-center !gap-4">
+        <h2 class="text-2xl font-black">Prioritize</h2>
+        <p class="text-balanced">A card component has a figure, a body part, and inside body there are title and actions parts and a third line too</p>
+      </div>
+    </div>
+
+    <div id="review" class="card bg-base-100 min-w-90 w-90 shadow-xl">
+      <picture class="pt-8">
+        <source srcset="/assets/review-light.svg" media="(prefers-color-scheme: light)"/>
+        <source srcset="/assets/review-dark.svg"  media="(prefers-color-scheme: dark)"/>
+        <img src="/assets/review-light.svg" alt="Daily review" />
+      </picture>
+      <div class="card-body text-center !gap-4">
+        <h2 class="text-2xl font-black">Daily Review</h2>
+        <p class="text-balanced">A card component has a figure, a body part, and inside body there are title and actions parts and a third line too</p>
+      </div>
+    </div>
+    
+    <div id="notes" class="card bg-base-100 min-w-90 w-90 shadow-xl">
+      <picture class="pt-8">
+        <source srcset="/assets/soon-light.svg" media="(prefers-color-scheme: light)"/>
+        <source srcset="/assets/soon-dark.svg"  media="(prefers-color-scheme: dark)"/>
+        <img src="/assets/soon-light.svg" alt="Daily notes and jurnal" />
+      </picture>
+      <div class="card-body text-center !gap-4">
+        <h2 class="text-2xl font-black">Daily Notes & Journal</h2>
+        <p class="text-balanced">A card component has a figure, a body part, and inside body there are title and actions parts and a third line too</p>
+      </div>
+    </div>
+    
+    <div id="week" class="card bg-base-100 min-w-90 w-90 shadow-xl">
+      <picture class="pt-8">
+        <source srcset="/assets/week-light.svg" media="(prefers-color-scheme: light)"/>
+        <source srcset="/assets/week-dark.svg"  media="(prefers-color-scheme: dark)"/>
+        <img src="/assets/week-light.svg" alt="Week planner" />
+      </picture>
+      <div class="card-body text-center !gap-4">
+        <h2 class="text-2xl font-black">Week at a Glance</h2>
+        <p class="text-balanced">A card component has a figure, a body part, and inside body there are title and actions parts and a third line too</p>
+      </div>
+    </div>
+    
+    <div id="goals" class="card bg-base-100 min-w-90 w-90 shadow-xl">
+      <picture class="pt-8">
+        <source srcset="/assets/soon-light.svg" media="(prefers-color-scheme: light)"/>
+        <source srcset="/assets/soon-dark.svg"  media="(prefers-color-scheme: dark)"/>
+        <img src="/assets/soon-light.svg" alt="Week planner" />
+      </picture>
+      <div class="card-body text-center !gap-4">
+        <h2 class="text-2xl font-black">Goals</h2>
+        <p class="text-balanced">A card component has a figure, a body part, and inside body there are title and actions parts and a third line too</p>
+      </div>
+    </div>
+    
+    <div id="focus" class="card bg-base-100 min-w-90 w-90 shadow-xl">
+      <picture class="pt-8">
+        <source srcset="/assets/soon-light.svg" media="(prefers-color-scheme: light)"/>
+        <source srcset="/assets/soon-dark.svg"  media="(prefers-color-scheme: dark)"/>
+        <img src="/assets/soon-light.svg" alt="Week planner" />
+      </picture>
+      <div class="card-body text-center !gap-4">
+        <h2 class="text-2xl font-black">Focus Blocks</h2>
+        <p class="text-balanced">A card component has a figure, a body part, and inside body there are title and actions parts and a third line too</p>
+      </div>
+    </div>
+    
+    <div id="habits" class="card bg-base-100 min-w-90 w-90 shadow-xl">
       <picture class="pt-8">
         <source srcset="/assets/soon-light.svg" media="(prefers-color-scheme: light)"/>
         <source srcset="/assets/soon-dark.svg"  media="(prefers-color-scheme: dark)"/>
@@ -140,7 +225,7 @@ layout: base.vto
 </div>
 
 
-<h2 id="pricing" class="text-3xl font-black text-center text-balanced mt-16 mb-8">
+<h2 id="pricing" class="text-3xl font-black text-center text-balanced pt-16 mb-8">
   Pricing
 </h2>
 

@@ -63,3 +63,29 @@
 html {
   scroll-behavior: smooth;
 }
+
+.auto-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  &:hover .card-group {
+    animation-play-state: paused;
+  }
+}
+.auto-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.card-group {
+  will-change: transform;
+  animation: scrolling 60s linear infinite;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
