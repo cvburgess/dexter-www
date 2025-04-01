@@ -1,0 +1,38 @@
+[
+  {
+    "question": "What makes Dexter an \"opinionated\" day planner?",
+    "answer": "Dexter is a tool I originally built for myself based on years of playing with different tools and methods but not finding anything that filled the gap between \"too simple to be useful\" and \"too complicated to use everyday\".<br/><br/>It tries to balance being as easy to use as possible (It Just Works™), while incorporating best practices that most people are likely to benefit from.<br /><br />An example of an \"opinion\" is that Dexter nudges you to prioritize all tasks and in a specific way.<br/>Why? Because the process of answering the two questions \"Is it important?\" and \"Is it urgent?\" can help you decide what to do today and more importantly, what _**not to do**_ today."
+  },
+  {
+    "question": "Does the daily notes feature replace Obsidian / Notion / etc?",
+    "answer": "The daily notes feature is powered by a robust Markdown editor that makes a perfect scratchpad for your mid-day thoughts, but it doesn't have the same features as a full-fledged note-taking app.<br /><br />Think of daily notes like that pile of sticky notes covering your desk or the musings sprawled across your whiteboard instead of a comprehensive documentation tool. <br /><br />If you only need simple home for your thoughts, Dexter might replace those apps, but if you're writing the next great novel, you'll want to stick with your favorite note-taking app."
+  },
+  {
+    "question": "Is Dexter open source?",
+    "answer": "Not yet, but I hope to find a license that fits and open source the repos soon!"
+  },
+  {
+    "question": "When will Dexter be available for Windows / Android / toasters / etc?",
+    "answer": "At this time there are no plans to develop for new platforms, but [Dexter is available as a web app](https://app.dexterplanner.com), so you can use it on any device with a web browser."
+  },
+  {
+    "question": "Does Dexter sync with my favorite apps?",
+    "answer": "There is a lot of convenience in syncing tasks from other services, but in the long run it often leads to a massive backlog of rotting tasks you are desperate to purge. <br /><br />Quickly yet mindfully entering each task is a way of being honest with yourself about your bandwidth and creates an opportunity to reflect on the value that each tasks brings. <br /><br />Dexter was built with power users and speed in mind, and while we may add some integrations in the future, we will continue to balance efficiency and mindfulness."
+  },
+  {
+    "question": "Is my data secure? Do you sell it? Can I delete it?",
+    "answer": "Dexter uses row-level-security, encryption, and other best practices to keep your data safe. <br /><br />Your data is yours and you can delete it at any time by deleting your account. <br /><br />We do not sell your data or use it for advertising. In fact, Dexter doesn't even _use_ third party services for telemetry or analytics so there is isn't much data to sell.<br /><br /> I do plan to use Sentry for error tracking, but it is configured to only send anonymized data and no personally identifiable information.<br /><br />All payment data is handled by Stripe with no payment data being stored on our servers.<br /><br />Dexter is probably not GDPR compliant because I am a lazy American who hasn't researched it yet, but I will take the time to do so soon."
+  },
+  {
+    "question": "How do I report a bug or request a feature?",
+    "answer": "Use the \"settings\" menu in the app to report a bug or request a feature."
+  },
+  {
+    "question": "$3? That's too much!",
+    "answer": "There's a free plan, but if you want to support Dexter and get some cool features, 10¢ a day feels reasonable."
+  },
+  {
+    "question": "$3? That's not sustainable!",
+    "answer": "Dexter is a tool I built and maintain for myself because it makes my life better and I have no plans to stop. <br /><br /> If it makes your life easier, too, please consider supporting it with a subscription or sharing it with your friends."
+  }
+]

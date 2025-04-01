@@ -4,12 +4,15 @@
 
 <meta property="og:title" content="{{ metadata.title }}"/>
 <meta property="og:description" content="{{ metadata.description }}"/>
-<meta property="og:image" content=""/>
+<meta property="og:image" content="{{ "https://deploy-preview-2--dexterplanner.netlify.app/assets/og-image.jpg" }}"/>
 <meta property="og:image:type" content="image/jpg"/>
 <meta property="og:image:width" content="1024"/>
 <meta property="og:image:height" content="1024"/>
 
-<title>{{ metadata.title }}</title>
+<link rel="icon" href="/assets/web-icon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/web-icon.png" type="image/png">
+
+<title>{{ [metadata.title, title].filter(Boolean).join(" • ") }}</title>
 
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -18,4 +21,9 @@
   href="https://cdn.jsdelivr.net/npm/daisyui@5/daisyui.css"
   rel="stylesheet"
   type="text/css"
+/>
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/bold/style.css"
 />

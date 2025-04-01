@@ -1,0 +1,9 @@
+<li class="flex items-center mb-3 {{ enabled ? "" : "opacity-50" }}">
+  {{ if enabled }}
+    <i class="ph-bold ph-check text-success mr-2 text-lg"></i>
+    <span class="{{ bold && "font-bold" }}">{{ text }}</span>
+  {{ else }}
+    <i class="ph-bold ph-x mr-2 text-lg"></i>
+    <span class="line-through">{{ text }}</span>
+  {{ /if }}
+</li>

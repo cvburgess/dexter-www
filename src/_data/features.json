@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "week",
+    "title": "Week at a Glance",
+    "description": "Visualize your week with a familiar, calendar-like view that makes it **easy to make plans** and update those plans as week unfolds"
+  },
+  {
+    "slug": "quick",
+    "title": "Quick Planner",
+    "description": "Keep track of tasks that are **incomplete**,<br />**due soon**, or were **left behind** on days where you were feeling particularly... ambitious"
+  },
+  {
+    "slug": "prioritize",
+    "title": "Prioritization",
+    "description": "An adaptation of the Eisenhower Matrix,<br />tasks are labeled <span class=\"text-info\">important</span>, <span class=\"text-error\">urgent</span>, <span class=\"text-warning\">both</span>,<br />or <span class=\"text-base-content/50\">neither</span> so your priorities are always clear"
+  },
+  {
+    "slug": "review",
+    "title": "Daily Review",
+    "description": "Mindfully end each day by **reviewing wins**<br />and deciding which **leftover tasks** should be marked as done, won't do, or rescheduled"
+  },
+  {
+    "slug": "notes",
+    "title": "Notes & Journal",
+    "description": "Jot your thoughts down throughout the day in a convenient **markdown** editor or use the journal to reflect on **customizable prompts**"
+  },
+  {
+    "slug": "goals",
+    "title": "Goals",
+    "description": "Organize tasks into milestones that make a meaningful difference in your life, because **being busy != being productive**"
+  },
+  {
+    "slug": "soon",
+    "title": "Focus Blocks",
+    "description": "Inspired by the Pomodoro Technique, focus blocks are a great way to **get in the zone**, especially for those of us with ADHD"
+  },
+  {
+    "slug": "soon",
+    "title": "Habit Tracking",
+    "description": "Form new habits or kick old ones with a **convenient** habit tracker you'll actually remember to use ( or at least see )"
+  }
+]
