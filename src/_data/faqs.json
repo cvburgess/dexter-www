@@ -16,6 +16,10 @@
     "answer": "At this time there are no plans to develop for new platforms, but [Dexter is available as a web app](https://app.dexterplanner.com), so you can use it on any device with a web browser."
   },
   {
+    "question": "Does Dexter sync with my favorite apps?",
+    "answer": "There is a lot of convenience in syncing tasks from other services, but in the long run it often leads to a massive backlog of rotting tasks you are desperate to purge. <br /><br />Quickly yet mindfully entering each task is a way of being honest with yourself about your bandwidth and creates an opportunity to reflect on the value that each tasks brings. <br /><br />Dexter was built with power users and speed in mind, and while we may add some integrations in the future, we will continue to balance efficiency and mindfulness."
+  },
+  {
     "question": "Is my data secure? Do you sell it? Can I delete it?",
     "answer": "Dexter uses row-level-security, encryption, and other best practices to keep your data safe. <br /><br />Your data is yours and you can delete it at any time by deleting your account. <br /><br />We do not sell your data or use it for advertising. In fact, Dexter doesn't even _use_ third party services for telemetry or analytics so there is isn't much data to sell.<br /><br /> I do plan to use Sentry for error tracking, but it is configured to only send anonymized data and no personally identifiable information.<br /><br />All payment data is handled by Stripe with no payment data being stored on our servers.<br /><br />Dexter is probably not GDPR compliant because I am a lazy American who hasn't researched it yet, but I will take the time to do so soon."
   },

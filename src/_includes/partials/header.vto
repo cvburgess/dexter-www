@@ -4,27 +4,27 @@
     <span class="!text-xl font-medium">Dexter</span>
   </a>
 
-  <div class="flex-none">
-    <ul class="menu menu-horizontal !text-lg p-1 gap-4">
+  <details class="dropdown dropdown-end">
+    <summary class="btn btn-neutral">Get started</summary>
+    <ul class="menu dropdown-content bg-base-100 rounded-box !w-54 !p-4 !gap-1 shadow-lg">
       <li>
-        <details>
-          <summary class="btn btn-neutral btn-outline">Get the app</summary>
-          <ul class="bg-base-100 rounded-t-none p-2 !mt-0 w-50">
-            <li>
-              <a>Download Mac app</a>
-            </li>
-            <li class="menu-disabled">
-              <a>Get iPhone app</a>
-            </li>
-          </ul>
-        </details>
+        <a>
+          <i class="ph-bold ph-laptop mr-2 text-lg"></i>
+          Download Mac app
+        </a>
       </li>
-
+      <li class="menu-disabled">
+        <a>
+          <i class="ph-bold ph-device-mobile-camera mr-2 text-lg"></i>
+          Get iPhone app
+        </a>
+      </li>
       <li>
-        <a href="https://app.dexterplanner.com" class="btn btn-neutral">
-          Login
+        <a href="https://app.dexterplanner.com" target="_blank">
+          <i class="ph-bold ph-arrow-square-out mr-2 text-lg"></i>
+          Go to web app
         </a>
       </li>
     </ul>
-  </div>
+  </details>
 </div>
