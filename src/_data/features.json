@@ -2,7 +2,7 @@
   {
     "slug": "week",
     "title": "Week at a Glance",
-    "description": "A card component has a figure, a body part, and inside body there are title and actions parts and a third line too"
+    "description": "Visualize your week with a familiar, calendar-like view that makes it **easy to make plans** and update those plans as week unfolds"
   },
   {
     "slug": "quick",
@@ -37,6 +37,6 @@
   {
     "slug": "soon",
     "title": "Habit Tracking",
-    "description": "A card component has a figure, a body part, and inside body there are title and actions parts and a third line too"
+    "description": "Form new habits or kick old ones with a **convenient** habit tracker you'll actually remember to use ( or at least see )"
   }
 ]
