@@ -20,12 +20,12 @@
     "description": "Mindfully end each day by **reviewing wins**<br />and deciding which **leftover tasks** should be marked as done, won't do, or rescheduled"
   },
   {
-    "slug": "soon",
+    "slug": "notes",
     "title": "Notes & Journal",
     "description": "Jot your thoughts down throughout the day in a convenient **markdown** editor or use the journal to reflect on **customizable prompts**"
   },
   {
-    "slug": "soon",
+    "slug": "goals",
     "title": "Goals",
     "description": "Organize tasks into milestones that make a meaningful difference in your life, because **being busy != being productive**"
   },
