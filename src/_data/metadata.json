@@ -3,7 +3,7 @@
   "description": "An opinionated day planner",
   "links": {
     "web": "https://app.dexterplanner.com",
-    "mac": "https://github.com/cvburgess/dexter-app/releases/download/v0.12/Dexter-darwin-universal-0.12.zip",
+    "mac": "https://github.com/cvburgess/dexter-app/releases/download/v0.13/Dexter-darwin-universal-0.13.zip",
     "ios": ""
   }
 }
