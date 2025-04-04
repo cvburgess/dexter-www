@@ -9,7 +9,7 @@
   },
   {
     "question": "Is Dexter open source?",
-    "answer": "Not yet, but I hope to find a license that fits and open source the repos soon!"
+    "answer": "Yes! Check out [the GitHub repo](https://github.com/cvburgess/dexter-app) if you are curious, nerdy, or both."
   },
   {
     "question": "When will Dexter be available for Windows / Android / toasters / etc?",

@@ -89,3 +89,7 @@ html {
     transform: translateX(-100%);
   }
 }
+
+p > a {
+  @apply link link-hover;
+}
