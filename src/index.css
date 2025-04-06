@@ -91,5 +91,5 @@ html {
 }
 
 p > a {
-  @apply link link-hover;
+  @apply link;
 }
