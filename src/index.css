@@ -2,7 +2,7 @@
 
 @plugin "@tailwindcss/typography";
 
-@plugin "@lumeland/daisyui";
+@plugin "daisyui";
 
 :root {
   --color-base-100: oklch(99% 0.01 78.24);

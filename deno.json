@@ -5,7 +5,7 @@
     ]
   },
   "imports": {
-    "@lumeland/daisyui": "npm:@lumeland/daisyui@^5.0.9",
+    "daisyui": "npm:daisyui@^5.0.27",
     "@tailwindcss/typography": "npm:@tailwindcss/typography@^0.5.16",
     "lume/": "https://cdn.jsdelivr.net/gh/lumeland/lume@bdcb5dcc91f279b2c9a145c0fa9a33f6c9da2cd8/"
   },
