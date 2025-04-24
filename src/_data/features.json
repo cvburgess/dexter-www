@@ -15,9 +15,9 @@
     "description": "An adaptation of the Eisenhower Matrix,<br />tasks are labeled <span class=\"text-info\">important</span>, <span class=\"text-error\">urgent</span>, <span class=\"text-warning\">both</span>,<br />or <span class=\"text-base-content/50\">neither</span> so your priorities are always clear"
   },
   {
-    "slug": "review",
-    "title": "Daily Review",
-    "description": "Mindfully end each day by **reviewing wins**<br />and deciding which **leftover tasks** should be marked as done, won't do, or rescheduled"
+    "slug": "calendar",
+    "title": "Calendar",
+    "description": "Add all of your calendars<br />(Google, Outlook, iCloud, etc) and <br />**see your whole day** in one place"
   },
   {
     "slug": "notes",
