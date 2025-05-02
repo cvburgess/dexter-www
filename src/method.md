@@ -183,7 +183,7 @@ The most popular interval based working method is the [Pomodoro Technique](https
 6. **Take a (quick) break** usually 5m or less
 7. **Repeat** until the task is complete
 
-**Note**: I've found that 25 minute intervals work great for administrative tasks but I often need 50 minute intervals to get deep work done on complex problems like writing code or architecting systems.
+**Note**: I've found that 25 minute intervals work great for administrative tasks, but I often need 50 minute intervals to get deep work done on complex problems like writing code or architecting systems.
 
 ## Reduce your anxiety with brain dumping
 
@@ -198,6 +198,8 @@ A tried and true method for reducing that feeling, and anxiety in general, is br
 
 **Speed is key**. You want to get it out of your brain and into a tool as soon as possible so you can stay in the flow or enjoy your down time, not worry "is there something I was supposed to be doing?".
 
+[Learn more about the power of brain dumping for reducing anxiety](https://psychcentral.com/health/using-brain-dumping-to-manage-anxiety-and-over-thinking).
+
 ## Your whole day in one place
 
 In order to plan and tackle your day, you need to see all the pieces you're working with and responsible for.
@@ -211,6 +213,8 @@ In order to plan and tackle your day, you need to see all the pieces you're work
 - Work, personal, and passion projects
 
 Often times these are scattered across multiple apps and tools, giving you an incomplete picture of your day.
+
+![Dexter Day Planner](/assets/screenshot-light.png)
 
 [The Dexter Day Planner](/) brings all of these together in one place, so we can get clear about what matters most, what tradeoffs we need to make, and which things should be front and center as we start our day.
 
