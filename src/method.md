@@ -23,7 +23,7 @@ If you don't want to read on as I wax poetic about productivity tools, here are 
 
 There are more things to do than there are hours in the day, so being clear about our priorities is critical to making sure we spend our precious time wisely.
 
-One of the most popular tools for prioritization is [the Eisenhower Matrix](https://www.todoist.com/productivity-methods/eisenhower-matrix). Its a powerful tool that allows you to take a large backlog of tasks and get clear about how you should tackle them, if at all.
+One of the most popular tools for prioritization is [the Eisenhower Matrix](https://www.todoist.com/productivity-methods/eisenhower-matrix). It's a powerful tool that allows you to take a large backlog of tasks and get clear about how you should tackle them, if at all.
 
 The two questions that comprise the Eisenhower Matrix are deceptively simple, but often make me pause and think:
 
@@ -38,11 +38,11 @@ Read on for tips for thinking through these two questions.
 
 Cher famously said ***"If it doesn't matter in 5 years, it doesn't matter."***
 
-I use this as a way to separate out the tasks that that matter (are important) from the ones that feel important but don't actually matter in the grand scheme of things.
+I use this as a way to separate out the tasks that matter (are important) from the ones that feel important but don't actually matter in the grand scheme of things.
 
 Take a minute to think on your **hopes, dreams, and aspirations**. The things that get you excited or fill you with hope and wonder. *Those are the things that are actually important.*
 
-Not every task will be important in it's own right, but if the task is an important building block in a relationship, project, or dream, it's probably important.
+Not every task will be important in its own right, but if the task is an important building block in a relationship, project, or dream, it's probably important.
 
 Some things that I would classify as important if they aligned with my goals:
 
@@ -68,7 +68,7 @@ If a task is truly urgent then the task has some sort of deadline and you don't 
 
 If the task has a deadline and you don't mind missing it for whatever reason, you may, at some point, chose to simply not do the task in favor of something more important.
 
-Often if I get to the end of the day and one of these tasks are lying around, I will choose to mark it as "won't do" rather than stay up late and miss out on things that are more important to me.
+Often if I get to the end of the day and one of these tasks is lying around, I will choose to mark it as "won't do" rather than stay up late and miss out on things that are more important to me.
 
 **Letting go of tasks is key to breaking out of the urgency / busyness trap** and having time to do the things you find most important in your life - even if those things are just spending time with family or getting a full nights rest.
 
@@ -83,7 +83,7 @@ Now that we've defined "Important" and "Urgent" we can create a matrix with 4 op
 3. **Urgent**: Do these soon, let them go, or delegate them if possible
 4. **Neither**: Let them go, outsource them, delegate them, or save them for a rainy day
 
-The [Dexter Day Planner](/) uses these four options to automatically prioritize your tasks and bubble up the ones  you can't afford to lose.
+The [Dexter Day Planner](/) uses these four options to automatically prioritize your tasks and bubble up the ones you can't afford to lose.
 
 ## Be intentional when planning the day
 
@@ -115,10 +115,10 @@ Intentions let us get honest with ourselves before we pile on the tasks or fill 
 
 When planning today, many times we don't get to start with a blank slate - we have items from yesterday that we didn't quite finish or items that we procrastinated that are getting more urgent by the day.
 
-Instead of rolling those items into our day wholesale - which can often take up enough time that there isn't room for much else - we should asses each item one-by-one and see if it is still as important to is as it was when we logged it.
+Instead of rolling those items into our day wholesale - which can often take up enough time that there isn't room for much else - we should assess each item one-by-one and see if it is still as important to us as it was when we logged it.
 
 - **Left Behind**: Tasks from previous days that did not get completed or deleted
-- **Overdue**: Tasks who's due date has come and gone
+- **Overdue**: Tasks whose due date has come and gone
 - **Due Soon**: Tasks that need to be completed in the near future
 
 The questions I ask myself before rolling over the task are:
@@ -148,7 +148,7 @@ Some days I have almost no meetings and other days I'm lucky if theres enough ti
 
 - **On meeting-heavy day**: Plan to only tackle a few, quick tasks
 - **On lighter days**: Add focus blocks to protect your deep work time
-- **On scattered days**: Plan asks that don't require a lot of deep thinking
+- **On scattered days**: Plan tasks that don't require a lot of deep thinking
 
 [Learn more about deep work and how to incorporate it into your day](https://www.lifehack.org/849518/deep-work-rules).
 
@@ -187,7 +187,7 @@ The most popular interval based working method is the [Pomodoro Technique](https
 
 ## Reduce your anxiety with brain dumping
 
-Every feel like you're forgetting something and it keeps nagging you when you're trying to relax?
+Ever feel like you're forgetting something and it keeps nagging you when you're trying to relax?
 
 A tried and true method for reducing that feeling, and anxiety in general, is brain dumping.
 
@@ -196,7 +196,7 @@ A tried and true method for reducing that feeling, and anxiety in general, is br
 
 [The Dexter Day Planner](/) allows you to quickly log tasks and take notes knowing that you can come back later and prioritize and organize them, but the same can be done with a [bullet journal](https://bulletjournal.com/), Notion database, or a dry erase board in your office.
 
-**Speed is key**. You want to get it our of your brain and into a tool as soon as possible so you can stay in the flow or enjoy your down time, not worry "is there something I was supposed to be doing?".
+**Speed is key**. You want to get it out of your brain and into a tool as soon as possible so you can stay in the flow or enjoy your down time, not worry "is there something I was supposed to be doing?".
 
 ## Your whole day in one place
 
