@@ -11,7 +11,7 @@ The Dexter Day Planner is carefully crafted to help you get more done while avoi
 
 ## Summary
 
-If you don't want to read on as I wax poetic about productivity tools, here are the key points:
+If you don't want to read on as I wax poetic about productivity tools I don't blame you, here are the key points:
 
 1. Get clear about **what is important to you**: dreams, goals, aspirations, etc
 2. Don't be afraid to **throw tasks away**, busy != productive
