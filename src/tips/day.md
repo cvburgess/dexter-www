@@ -9,6 +9,8 @@ layout: layouts/tips.vto
 
 The day view in Dexter is your home base. See everything you need in one, focused workspace including your tasks, habits, notes, journal, calendar, and more.
 
+**👋 New to Dexter?** Read the [Dexter Method](/method) first to learn how the app works, and why.
+
 ## Toolbar
 
 The toolbar enables quick navigation and access to tools without leaving the day view.
