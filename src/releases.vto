@@ -1,0 +1,23 @@
+---
+title: "Release Notes"
+layout: layouts/tips.vto
+---
+
+# Release Notes
+
+{{ if releases?.length > 0 }}
+  {{ for release of releases }}
+    <div class="release mb-12">
+      <h2 id="{{ release.tag_name }}" class="text-2xl font-bold mt-4">{{ release.name || release.tag_name }}</h2>
+      <p class="text-sm opacity-75 mb-4">
+        Released on {{ new Date(release.published_at).toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric' }) }}
+      </p>
+      <div class="release-notes mb-4">
+        {{ release.body |> md }}
+      </div>
+      <a href="{{ release.html_url }}" class="link link-primary" target="_blank">View on GitHub</a>
+    </div>
+  {{ /for }}
+{{ else }}
+  <p>No releases found. Check back soon for updates!</p>
+{{ /if }}
