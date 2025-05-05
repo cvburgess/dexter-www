@@ -50,7 +50,7 @@ Some things that I would classify as important if they aligned with my goals:
 - Preparing for an interview (if I really want the job)
 - Booking tickets to see family (if the memories matter to me)
 - Calling a friend on the phone (if I know they are having a hard week)
-- Signing up for a class (if its a hobby I want to pursue)
+- Signing up for a class (if it's a hobby I want to pursue)
 - Lining up a date (if I want to pursue a relationship)
 
 These things all move you closer to a goal, a dream, or a relationship that matter - they're important.
