@@ -23,6 +23,7 @@
     "editor.defaultFormatter": "okitavera.vscode-nunjucks-formatter"
   },
   "cSpell.words": [
+    "architecting",
     "callout",
     "CALLOUTS",
     "CCPA",
@@ -30,6 +31,7 @@
     "cvburgess",
     "daisyui",
     "datetime",
+    "Fastmail",
     "frontmatter",
     "lume",
     "lumeland",
@@ -46,6 +48,7 @@
     "Supabase",
     "templating",
     "Unprioritized",
+    "unscheduling",
     "xlarge",
     "xxlarge"
   ]

@@ -1,7 +1,7 @@
 [
   {
     "question": "What makes Dexter an \"opinionated\" day planner?",
-    "answer": "Dexter is a tool I originally built for myself based on years of playing with different tools and methods but not finding anything that filled the gap between \"too simple to be useful\" and \"too complicated to use everyday\".<br/><br/>It tries to balance being as easy to use as possible (It Just Works™), while incorporating best practices that most people are likely to benefit from.<br /><br />An example of an \"opinion\" is that Dexter nudges you to prioritize all tasks and in a specific way.<br/>Why? Because the process of answering the two questions \"Is it important?\" and \"Is it urgent?\" can help you decide what to do today and more importantly, what _**not to do**_ today."
+    "answer": "Dexter is a tool I originally built for myself based on years of playing with different tools and methods but not finding anything that filled the gap between \"too simple to be useful\" and \"too complicated to use everyday\".<br/><br/>[The Dexter Method](/method) is a collection of tools and techniques that have helped me get more organized and feel less anxious, even as life gets a little hectic. The Dexter Day planner puts those practices into... well, practice.<br /><br />[Read more about the Dexter Method](/method) and start getting more done with less stress!"
   },
   {
     "question": "Does the daily notes feature replace Obsidian / Notion / etc?",
