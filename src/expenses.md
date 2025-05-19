@@ -38,7 +38,7 @@ The only usable metric is the number of records in the users (auth) table, but t
 
 Supabase is clearly the bulk of the annual expenditure at $396 per year, while the Postmark free tier is doing the most.
 
-**Total Annual Expenses**: ~$515
+**Total Annual Expenses**: $515
 
 ## Donations
 
@@ -53,5 +53,7 @@ Supabase is clearly the bulk of the annual expenditure at $396 per year, while t
 Exactly what we all thought: most of the time, donations don't pay the bills.
 
 This is true when I teach yoga classes, and it's true for open source.
+
+**Every year, Dexter makes -$455 in profit.**
 
 Thankfully, Dexter was never meant to be a billion dollar app. It was meant to make my life easier (and maybe the lives of some other folks, too) and it is doing that quite brilliantly - profit be damned.
