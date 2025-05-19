@@ -46,11 +46,33 @@ layout: layouts/base.vto
   {{ /for }}
 </div>
 
-<h2 id="pricing" class="text-3xl font-black text-center text-balanced pt-16 mb-8">
-  Pricing
+<h2 id="support" class="text-3xl font-black text-center text-balanced pt-16 mb-4">
+  Support Dexter
 </h2>
 
+<p class="text-center text-balanced max-w-3xl w-full mb-8">
+  Dexter is free to use, but if you find it useful, please consider supporting the project.
+  <br />
+  <a href="https://cvburgess.com">I am an indie developer</a>, so your support helps pay for for hosting and the occasional matcha latte.
+  <br />
+  <br />
+  It currently costs about <span class="font-semibold">$416 a year</span> to keep Dexter running.
+</p>
+
 <div class="flex flex-col md:flex-row gap-8 max-w-3xl w-full justify-center items-center">
-  {{ comp.plan({ title: "Free", price: 0 }) }}
-  {{ comp.plan({ title: "Unlimited", price: 3}) }}
+  <div class="card bg-base-100 min-w-90 w-90 shadow-xl !pt-4">
+    <div class="card-body text-center !gap-6">
+      <i class="text-5xl ph-bold ph-github-logo"></i>
+      <h2 class="text-2xl font-black">GitHub</h2>
+      <a href="https://github.com/sponsors/cvburgess" class="btn btn-primary">Give Once or Subscribe</a>
+    </div>
+  </div>
+
+  <div class="card bg-base-100 min-w-90 w-90 shadow-xl !pt-4">
+    <div class="card-body text-center !gap-6">
+      <i class="text-5xl ph-bold ph-patreon-logo"></i>
+      <h2 class="text-2xl font-black">Patreon</h2>
+      <a href="https://www.patreon.com/cvburgess" class="btn btn-primary">Subscribe</a>
+    </div>
+  </div>
 </div>

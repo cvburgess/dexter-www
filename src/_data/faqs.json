@@ -1,11 +1,15 @@
 [
   {
-    "question": "What makes Dexter an \"opinionated\" day planner?",
-    "answer": "Dexter is a tool I originally built for myself based on years of playing with different tools and methods but not finding anything that filled the gap between \"too simple to be useful\" and \"too complicated to use everyday\".<br/><br/>[The Dexter Method](/method) is a collection of tools and techniques that have helped me get more organized and feel less anxious, even as life gets a little hectic. The Dexter Day planner puts those practices into... well, practice.<br /><br />[Read more about the Dexter Method](/method) and start getting more done with less stress!"
+    "question": "Free? That's not sustainable!",
+    "answer": "Dexter is a tool I built and maintain for myself because it makes my life easier. <br /><br /> I use it every day and I have no plans to stop updating it or building features that make me happy. <br /><br /> If it makes your life easier, too, please consider supporting it with a subscription or sharing it with your friends!"
   },
   {
-    "question": "Does the daily notes feature replace Obsidian / Notion / etc?",
-    "answer": "The daily notes feature is powered by a robust Markdown editor that makes a perfect scratchpad for your mid-day thoughts, but it doesn't have the same features as a full-fledged note-taking app.<br /><br />Think of daily notes like that pile of sticky notes covering your desk or the musings sprawled across your whiteboard instead of a comprehensive documentation tool. <br /><br />If you only need simple home for your thoughts, Dexter might replace those apps, but if you're writing the next great novel, you'll want to stick with your favorite note-taking app."
+    "question": "What makes Dexter an \"opinionated\" day planner?",
+    "answer": "Dexter is a tool I built for myself based on years of playing with different tools and methods but not finding anything that filled the gap between \"too simple to be useful\" and \"too complicated to use everyday\".<br/><br/>[The Dexter Method](/method) is a collection of tools and techniques that have helped me get more organized and feel less anxious, even as life gets a little hectic. The Dexter Day planner puts those practices into... well, practice.<br /><br />[Read more about the Dexter Method](/method) and start getting more done with less stress!"
+  },
+  {
+    "question": "Does the notes feature replace Obsidian / Notion / etc?",
+    "answer": "The notes feature is powered by a robust Markdown editor that makes a perfect scratchpad for your mid-day thoughts, but it doesn't have the same features as a full-fledged note-taking app.<br /><br />Think of daily notes like that pile of sticky notes covering your desk or the musings sprawled across your whiteboard instead of a comprehensive documentation tool. <br /><br />If you only need simple home for your thoughts, Dexter might replace those apps, but if you're writing the next great novel, you'll want to stick with your favorite note-taking app."
   },
   {
     "question": "Is Dexter open source?",
@@ -25,14 +29,6 @@
   },
   {
     "question": "How do I report a bug or request a feature?",
-    "answer": "Use the \"settings\" menu in the app to report a bug or request a feature."
-  },
-  {
-    "question": "$3? That's too much!",
-    "answer": "There's a free plan, but if you want to support Dexter and get some cool features, 10¢ a day feels reasonable."
-  },
-  {
-    "question": "$3? That's not sustainable!",
-    "answer": "Dexter is a tool I built and maintain for myself because it makes my life better and I have no plans to stop. <br /><br /> If it makes your life easier, too, please consider supporting it with a subscription or sharing it with your friends."
+    "answer": "Open a GitHub issue or use the \"settings\" menu in the app to report a bug or request a feature."
   }
 ]
