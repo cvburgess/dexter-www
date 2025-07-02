@@ -4,7 +4,7 @@
 const getDownloadUrl = async (platform: string): Promise<string | null> => {
   try {
     const response = await fetch(
-      `https://update.electronjs.org/cvburgess/dexter-app/${platform}/0.1.0`,
+      `https://update.electronjs.org/cvburgess/dexter-app/${platform}/1.0.0`,
     );
 
     if (!response.ok) {
